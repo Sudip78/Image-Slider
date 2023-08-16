@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <!-- custom_css  -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  
+    <div class="slide-contaner">
+
+        <div class="slide">
+            <img src="img/slidar_1.jpg">
+            <div class="caption">Caption text 1</div>
+        </div>
+
+        <div class="slide">
+            <img src="img/slidar_2.jpg">
+            <div class="caption">Caption text 2</div>
+        </div>
+
+        <div class="slide">
+            <img src="img/slidar_3.jpg">
+            <div class="caption">Caption text 3</div>
+        </div>
+
+        <div class="slide">
+            <img src="img/slidar_4.jpg">
+            <div class="caption">Caption text 4</div>
+        </div>
+        
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+
+
+    <!-- custom_js  -->
+    <script src="js/script.js"></script>
+</body>
+</html>
